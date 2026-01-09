@@ -90,6 +90,14 @@ nav{
     border: none;
     background-color: #ffffff;
     margin-bottom: 16px;
+    cursor: pointer;
+
+}
+.hero-btn:hover {
+    background-color: #ffffff00;
+    border: 1px solid #30B868;
+    border-radius: 1000px;
+    color: #30B868;
 
 }
 
@@ -214,4 +222,56 @@ nav{
     color: #627382;
     line-height: 24px;
     
+}
+/* footer */
+footer {
+    background-color: #001931;
+    padding: 120px 0px 30px;
+
+}
+footer-logo {
+    max-width: 139px;
+    cursor: pointer;
+}
+
+.footer-main {
+    display: flex;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.social h6 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.footer-img {
+    margin-top: 16px;
+}
+
+.footer-img img {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.copyright {
+    margin: 0 auto;
+    max-width: 1360px;
+    text-align: center;
+    padding-top: 80px;
+      
+}
+.copyright p {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ffffff50;
 }
